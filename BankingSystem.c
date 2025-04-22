@@ -56,7 +56,7 @@ int main() {
 				scanf("%s", &cont);
 			}
 			else {
-				printf("Something whent wrong...please try again");
+				printf("Something whent wrong. Please try again");
 			}
 			fclose(fp);
 		}
