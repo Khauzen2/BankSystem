@@ -12,7 +12,7 @@ struct user {
 
 int main() {
 	struct user usr,usr1, usr2, usr3, usr4;
-	//strcpy(usr1.name, "Mdeva");
+	strcpy(usr1.name, "Mdeva");
 	strcpy(usr2.name, "Thato");
 	strcpy(usr3.name, "Thabiso");
 	strcpy(usr4.name, "Koroloso");
