@@ -52,7 +52,7 @@ int main() {
 			fp = fopen(strcat(filename,".txt"), "w");
 			fwrite(&usr,sizeof(struct user),1,fp);
 			if(fwrite != 0) {
-				printf("\n\nAccount successfully registered.");
+				printf("\n\nAccount successfully registered!");
 				scanf("%s", &cont);
 			}
 			else {
