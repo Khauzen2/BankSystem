@@ -30,8 +30,8 @@ int main() {
 	    printf("Name4 is %s\n", usr4.name);
 	    
 		printf("\n\n\n\t\t\tWhat do you want to do today?\n\n");
-		printf("\t\t\t1.Register an Account\n");
-		printf("\t\t\t2.Login to Account");
+		printf("\t\t\t1.Register an Account.\n");
+		printf("\t\t\t2.Login to Account.");
 		
 		printf("\n\n\t\t\tYour choice:\n\t\t\t");
 		scanf("%d", &opt);
