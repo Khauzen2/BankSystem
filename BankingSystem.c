@@ -71,7 +71,7 @@ int main() {
 			fp = fopen(strcat(filename,".txt"),"r");
 			if(fp == NULL)
 			{
-				printf("\nAccount number not registered\nTry existing account\nPress 1 and hit Enter"); 
+				printf("\nAccount number not registered\nTry existing account\nPress 1 and hit Enter."); 
 				scanf("%d", &opt);
 			}
 			else 
