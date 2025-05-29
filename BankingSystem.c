@@ -92,14 +92,14 @@ int main() {
 							printf("\t%s",__TIME__);
 							printf("\n\t\t\tWelcome %s\n", name);
 							printf("Your balance: R%.2f", usr.balance);
-							printf("\n\t\t\tPress 1 for balance enquiry");
-							printf("\n\t\t\tPress 2 for cash deposit");
-							printf("\n\t\t\tPress 3 for cash withdrawal");
-							printf("\n\t\t\tPress 4 for online transfer");
-							printf("\n\t\t\tPress 5 for password change");
-							printf("\n\t\t\tPress 6 for history");
-							printf("\n\t\t\tPress 7 for exit");
-							printf("\n\n\t\t\tYour choice\n\t\t\t");
+							printf("\n\t\t\tPress 1 for balance enquiry.");
+							printf("\n\t\t\tPress 2 for cash deposit.");
+							printf("\n\t\t\tPress 3 for cash withdrawal.");
+							printf("\n\t\t\tPress 4 for online transfer.");
+							printf("\n\t\t\tPress 5 for password change.");
+							printf("\n\t\t\tPress 6 for history.");
+							printf("\n\t\t\tPress 7 for exit.");
+							printf("\n\n\t\t\tYour choice.\n\t\t\t");
 							scanf("%d", &choice);
 							
 							if(choice == 1){
