@@ -114,7 +114,7 @@ int main() {
 									fwrite(&usr,sizeof(struct user),1,fp);
 									if(fwrite != NULL) 
 									{
-										printf("\nSuccessfully Deposited");
+										printf("\nSuccessfully Deposited.");
 									}
 									else {
 										printf("\n\nNot working mike...fix it!!!");
